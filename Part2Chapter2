@@ -1,0 +1,23 @@
+what happened if multiple machines are involved in storage and retrieval of
+data?
+
+Scalability
+if data volume,read load,write load grows bigger than single machine can handle,
+you can potentially spread the load across multiple machines.
+
+High availability
+if your application needs to continue working even if one machine goes down,you
+can use multiple machines give you redundancy.when one fails,another one can
+take over.
+
+Latency
+if users around the world,I want to have servers at various locations,so that
+each user can be served from a data-center that is geo-graphically close to them
+to avoid network packet to travel halfway around the world.
+
+Replication
+improve performance,served from remaining nodes while some nodes goes down
+
+Partitioning
+Splitting a big database into smaller subsets.so that different partitions can
+be assigned to different nodes.
